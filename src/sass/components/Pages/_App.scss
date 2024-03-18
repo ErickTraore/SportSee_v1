@@ -1,0 +1,46 @@
+.App { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: solid 3px red;
+    background-color: antiquewhite;
+   &__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: solid 3px yellow;
+    flex-direction: column;
+    &__horizontal {
+        width: 100%;
+        height: auto;
+        display: flex;
+        border: solid 3px blue;
+        &__nav {
+            width: 100%;
+            height: auto;
+            display: flex;
+            border: solid 3px red; 
+        }
+       }
+    &__vertical {
+        width: 100%;
+        height: auto;
+        display: flex;
+        border: solid 3px blue;
+        &__nav {
+            width: 5%;
+            height: auto;
+            display: flex;
+            border: solid 3px red; 
+        }
+        &__body {
+            width: 95%;
+            height: auto;
+            display: flex;
+            border: solid 3px red; 
+        }
+    }
+   }
+              
+         
+    }

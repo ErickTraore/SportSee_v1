@@ -1,0 +1,28 @@
+.logosport {
+    width: auto;
+    height: auto;
+    display: flex;
+    border: solid 3px white;
+    flex-direction: row;
+    justify-content: center;
+    margin: 18px 0px 12.07px 28px;
+     &__container {
+        width: auto;
+        height: auto;
+        display: flex;
+        font-size: 30px;
+
+        &__icon {
+            width: 57.196px;
+            height: 57.703px;
+            margin: auto auto;
+            margin-right: 9px;
+         } 
+         &__texte {
+            width: auto;
+            height: auto;
+            margin: auto auto;
+
+         } 
+     } 
+}

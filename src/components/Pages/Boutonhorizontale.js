@@ -1,9 +1,11 @@
-const Boutonhorizontale = () => {
+function Boutonhorizontale(props) {
     return (
       <div className="boutonhorizontale">
         <div className="boutonhorizontale__container">
-            <div className="boutonhorizontale__container__icon">
-                
+            <div className="boutonhorizontale__container__content">
+                <button className="boutonhorizontale__container__content__button">
+                  {props.content}
+                </button>
             </div>
            
         
@@ -12,4 +14,4 @@ const Boutonhorizontale = () => {
     );
   }
   
-  export default Butonhorizontale;
+  export default Boutonhorizontale;

@@ -1,0 +1,21 @@
+.boutonverticale {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-bottom: 10px;
+    &__container {
+        width: auto;
+        height: auto;
+        display: flex;
+        &__content {
+            width: auto;
+            height: auto;
+            display: flex;
+            &__icon {
+                width: auto;
+                height: auto;
+                display: flex;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.boutonhorizontale {
+    width: auto;
+    height: auto;
+    display: flex;
+  
+    &__container {
+        width: auto;
+        height: auto;
+        display: flex;
+        &__content {
+            width: auto;
+            height: auto;
+            display: flex;
+            &__button {
+                width: auto;
+                height: auto;
+                display: flex;
+                background-color: black;
+                color: white;
+                font-weight: 500;
+                border: solid 3px black;
+            }
+        }
+    }
+}

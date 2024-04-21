@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import Logosport from './Logosport';
 import Boutonhorizontale from './Boutonhorizontale';
+import Naving from "../components/Naving/index";
 import Boutonverticale from './Boutonverticale';
 import icon_1 from '../asset/images/naving/icon_1.svg'
 import icon_2 from '../asset/images/naving/icon_2.svg'
@@ -18,10 +19,7 @@ const Layout = () => {
                 <Logosport />
               </div>
               <div className="Layout__container__horizontale__nav">
-                  <Boutonhorizontale className="Layout__container__horizontale__nav__content" content="Accueil"/>
-                  <Boutonhorizontale className="Layout__container__horizontale__nav__content" content="Profil"/>
-                  <Boutonhorizontale className="Layout__container__horizontale__nav__content" content="Réglage"/>
-                  <Boutonhorizontale className="Layout__container__horizontale__nav__content" content="Communauté"/>
+                <Naving />
               </div>
               
           </div>

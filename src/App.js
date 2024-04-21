@@ -1,9 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import './sass/mains.scss';
-import Layout from "./components/Pages/Layout";
-import TestData from "./components/Pages/TestData";
-import NoPage from "./components/Pages/NoPage";
+import Layout from "./Pages/Layout";
+import Home from "./Pages/Home";
+import Reglage from "./Pages/Reglage";
+import Profil from "./Pages/User";
+import Communaute from "./Pages/Communaute";
+import NoPage from "./Pages/NoPage";
 
 
 function App()  {
@@ -34,8 +37,11 @@ function App()  {
     <BrowserRouter>
        <Routes>
           <Route path="/" element={<Layout />}>
-            <Route path="/TestData" element={<TestData />} />
-            <Route path="*" element={<NoPage />} /> 
+          <Route path="/home" element={<Home />} />
+          <Route path="/user/:idUser" element={<Profil />} />
+          <Route path="/reglage" element={<Reglage />} />
+          <Route path="/communaute" element={<Communaute />} />
+          <Route path="*" element={<NoPage />} /> 
           </Route>
        </Routes>
     </BrowserRouter> 

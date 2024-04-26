@@ -1,0 +1,42 @@
+.dashboard {
+    width: 100%;
+    height: auto;
+    margin: 50px 50px;
+    border: solid 3px red;
+    &__graph {
+        width: 100%;
+        height: auto;
+        margin: 50px 50px;
+        border: solid 3px blue;
+        &__header {
+            width: 100%;
+            height: auto;
+            margin: 50px 50px;
+            border: solid 3px yellow;  
+        }  
+        &__body {
+            width: 100%;
+            height: auto;
+            margin: 50px 50px;
+            border: solid 3px yellowgreen;  
+            &__title {
+                width: 100%;
+                height: auto;
+                margin: 50px 50px;
+                border: solid 3px black;  
+            } 
+        } 
+        &__footer {
+            width: 100%;
+            height: auto;
+            margin: 50px 50px;
+            border: solid 3px green;  
+        } 
+        &__section {
+            width: 100%;
+            height: auto;
+            margin: 50px 50px;
+            border: solid 3px black;  
+        } 
+    }
+}

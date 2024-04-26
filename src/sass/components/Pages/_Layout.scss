@@ -78,11 +78,13 @@
             }
     }
         &__body {
-            width: 95%;
+            width: 100%;
             height: auto;
             display: flex;
+            background-color: white;
             border: solid 3px red; 
             background-color: white;
+           
 
         }
     }

@@ -26,7 +26,7 @@ function Naving() {
                  <StyledLink to="/home">Accueil</StyledLink>
                  <StyledLink to="/user/12">Profil</StyledLink>
                  <StyledLink to="/reglage">Réglage</StyledLink>
-                 <StyledLink to="/communaute">Communauté</StyledLink>
+                 <StyledLink to="/objectifChart">Communauté</StyledLink>
         </StyledNav>
     )
 }

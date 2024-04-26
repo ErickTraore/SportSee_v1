@@ -46,7 +46,7 @@ const Layout = () => {
                 </div>
               </div>
               <div className="Layout__container__verticale__body">
-                  < Outlet />
+                  <Outlet />
               </div>
           </div>
       </div>

@@ -15,7 +15,7 @@ export default function BodyChart() {
             ) : (<>
                   <ChartProfil todo = {data} />
                   </>
-                )}
+           )}
       
           </div>;
 }

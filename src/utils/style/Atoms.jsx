@@ -12,10 +12,10 @@ const rotate = keyframes`
 `
  
 export const Loader = styled.div`
-    padding: 10px;
+    padding: 60px;
     border: 6px solid ${colors.primary};
     border-bottom-color: transparent;
-    border-radius: 22px;
+    border-radius: 50%;
     animation: ${rotate} 1s infinite linear;
     height: 0;
     width: 0;

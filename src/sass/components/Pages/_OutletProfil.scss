@@ -1,0 +1,167 @@
+.outletProfil {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+    &__loader {
+        width: 90%;
+        height: auto;
+        display: flex;
+        margin: 50px 50px;
+        justify-content: center;
+        margin:auto 0px;
+
+    }
+    &__line {
+        width: 1126px;
+        height: 779px;
+        display: flex;
+        flex-direction: column;
+        &__header {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            &__welcome {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                span {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    margin-right: 15px;
+                }  
+            } 
+            &__message {
+                width: 100%;
+                height: auto;
+                display: flex;
+                font-size: 1.2em;
+                font-weight: 400;
+                p {
+                    width: 100%;
+                    height: auto;
+                    padding-top: 2rem;   
+                    padding-bottom: 7rem;   
+                }
+            } 
+        }
+        &__others {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            &__left{
+                width: 835px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                 &__body {
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    padding-top: 20px;
+                    flex-direction: column;
+                    background-color: rgb(214, 214, 208);   
+                    &__title {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: row;
+                        &__firstdiv{
+                            width: 50%;
+                            height: auto; 
+                            p {
+                                margin-top: 0;
+                                margin-left: 20px;
+                                margin-bottom: 1rem;
+                            } 
+                        }
+                        &__seconddiv{
+                            width: 50%;
+                            height: auto;  
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            li:nth-child(2)::marker {
+                                color: red;
+                              }
+                        }
+                    } 
+                } 
+                &__chart {
+                    width: auto;
+                    height: auto;
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+                &__bottom {
+                    width: auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding-top: 30px;
+                    &__div {
+                        width: 258px;
+                        height: 300px;
+                        padding: 0px 0px 0px 0px;
+                        margin: 0px 0px 0px 0px;
+                        &:nth-child(1) {
+                            background-color: #FF0000;
+                            p {
+                                width: 200px;
+                                height: 23px;
+                                color: white;
+                                padding: 15px 0px 0px 30px;
+                            }
+                        }
+                        &:nth-child(2) {
+                           background-color: #000000;
+                        }
+                        &__background {
+                            position: relative;
+                            width: 258px;
+                            height: 300px;
+                            top: -40px;
+                        }
+                        &:nth-child(3) {
+                            background-color: white;
+                            p {
+                                width: 200px;
+                                height: 23px;
+                                color: black;
+                                padding: 15px 0px 0px 30px;
+                            }
+                         }
+                       
+                    }
+                }
+            } 
+            &__rigth {
+                width: auto;
+                height: auto;
+                display: flex;
+                &__card {
+                    width: 258px;
+                    height: 124px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(234, 229, 229);
+                    margin-bottom:  58px;
+                 }
+             }
+
+    } 
+      
+    }
+}
+
+
+

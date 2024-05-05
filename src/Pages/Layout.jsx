@@ -1,9 +1,8 @@
 import { Outlet } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import Logosport from './Logosport';
-import Boutonhorizontale from './Boutonhorizontale';
 import Naving from "../components/Naving/index";
-import Boutonverticale from './Boutonverticale';
+import Boutonverticale from '../components/Boutonverticale'
 import icon_1 from '../asset/images/naving/icon_1.svg'
 import icon_2 from '../asset/images/naving/icon_2.svg'
 import icon_3 from '../asset/images/naving/icon_3.svg'
@@ -46,7 +45,7 @@ const Layout = () => {
                 </div>
               </div>
               <div className="Layout__container__verticale__body">
-                  <Outlet />
+                  < Outlet />
               </div>
           </div>
       </div>

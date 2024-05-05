@@ -3,7 +3,6 @@ import {
   Line,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   ResponsiveContainer,
   } from "recharts";
@@ -12,23 +11,22 @@ import {
     console.log(todo)
 
     return (
-       <ResponsiveContainer width={500} height={250}>
+      <ResponsiveContainer ResponsiveContainer width={258} height={300}>
           <LineChart
-            width={500}
+            width={300}
             height={300}
             data={todo?.data.sessions}
             margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5
+              top: 0,
+              right: 10,
+              left: -50,
+              bottom: 0
             }}
           >
-          <CartesianGrid strokeDasharray="3 3" />
           <XAxis axisLine={false} />
           <YAxis tick={false}  axisLine={false} />
           <Tooltip />
-          <Line type="monotone"  stroke="#8884d8"  dataKey="sessionLength"  />
+          <Line type="monotone"  stroke="white"  dataKey="sessionLength"  />
           </LineChart>
        </ResponsiveContainer>
 

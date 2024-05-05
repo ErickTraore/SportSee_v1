@@ -6,7 +6,7 @@ const StyledLink = styled(Link)`
     width: 25%;
     height: 100%;
     display: flex;
-    color: white;
+    color: blue;
     text-decoration: none;
     font-size: 30px;
     border: 3px solid black;
@@ -16,6 +16,7 @@ const StyledNav = styled.nav`
     height: auto;
     display: flex;
     flex-direction: row;
+    border: 3px solid green;
     `
 
 function Naving() {
@@ -23,13 +24,9 @@ function Naving() {
     return (
         <StyledNav>
                  <StyledLink to="/home">Accueil</StyledLink>
-                 <StyledLink to="/user/12">Profil</StyledLink>
-                 <StyledLink to="/reglage">Réglage</StyledLink>
-                 <StyledLink to="/objectifChart">Communauté</StyledLink>
+   
         </StyledNav>
     )
 }
 
 export default Naving;
-
-

@@ -5,7 +5,6 @@ import {
     YAxis,
     CartesianGrid,
     Tooltip,
-    Legend,
     ResponsiveContainer,
   } from "recharts";
   
@@ -14,10 +13,10 @@ import {
 
     return (
       <div className="chartProfil">
-       <ResponsiveContainer width="75%" height={250}>
+       <ResponsiveContainer width="100%" height={200}>
         <BarChart
           width={500}
-          height={300}
+          height={100}
           data={todo && todo.data.sessions}
           margin={{
             top: 5,
@@ -30,9 +29,8 @@ import {
             <XAxis />
             <YAxis orientation="right" />
             <Tooltip />
-            <Legend />
-            <Bar dataKey="calories" fill="#82ca9d" />
-            <Bar dataKey="kilogram" fill="#82cxa9s" />
+            <Bar dataKey="calories" fill="#282D30" />
+            <Bar dataKey="kilogram" fill="#FF0000" />
         </BarChart>
        </ResponsiveContainer>
       </div>

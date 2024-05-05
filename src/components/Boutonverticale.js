@@ -1,3 +1,5 @@
+import React from "react";
+
 function Boutonverticale(props) {
     return (
       <div className="boutonverticale">

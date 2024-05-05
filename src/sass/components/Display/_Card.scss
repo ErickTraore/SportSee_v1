@@ -1,0 +1,43 @@
+.card {
+    &__container {
+        width: 90%;
+        height: auto;
+        &__ui{
+            width: 100%;
+            height: auto;
+            display: flex;
+            background-color: rgb(234, 229, 229);
+            &__icon {
+                width: 35%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(234, 229, 229);
+                border: solid 2px rgb(234, 229, 229);
+                    img {
+                    width: 6vw;
+                    height: 6vw;
+                    border:solid 2px rgb(234, 229, 229)
+                }
+            }
+            &__text {
+                width: 60%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 46px;
+                &__number {
+                    width: auto;
+                    height: auto;
+                    font-size: 17px;
+                    font-weight: 700;
+                }
+                &__letter {
+                    width: auto;
+                    height: auto;
+                }
+            }
+    }
+    }
+}
